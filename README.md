@@ -1,7 +1,3 @@
-Certainly! Here's a sample README file for your DynamoDB study project:
-
----
-
 # DynamoDB Study Project
 
 This project serves as a learning exercise for working with DynamoDB, Amazon Web Services' (AWS) fully managed NoSQL database service. The project utilizes default functions and features provided by AWS SDKs to interact with DynamoDB programmatically.
