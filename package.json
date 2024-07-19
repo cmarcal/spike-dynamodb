@@ -1,0 +1,23 @@
+{
+  "name": "dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "createTable": "node createTable.js",
+    "deleteTable": "node deleteTable.js",
+    "getItems": "node getItem.js",
+    "deleteItems": "node deleteItem.js",
+    "addItems": "node addItem.js",
+    "addItemsBatch": "node getItemBatch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.614.0",
+    "@aws-sdk/lib-dynamodb": "^3.614.0",
+    "aws-sdk": "^2.1658.0"
+  }
+}
